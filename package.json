@@ -1,0 +1,33 @@
+{
+  "name": "novo-cucumber-protractor",
+  "version": "1.0.0",
+  "description": "novo projeto cucumber e protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanessa Maure",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^14.0.24",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-tsflow": "^3.4.0",
+    "jasmine": "^3.5.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/cucumber": "^6.0.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "jasminewd2": "^2.2.0",
+    "lodash": "^4.17.19",
+    "ts-node": "^8.10.2",
+    "ts-node-register": "^1.0.0",
+    "webdriver-manager": "^12.1.7"
+  }
+}
